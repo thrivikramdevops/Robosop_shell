@@ -1,0 +1,208 @@
+    1  13/01/26 18:30:51 sudo dnf update -y 
+    2  13/01/26 18:30:51 sudo dnf update -y 
+    3  13/01/26 18:37:26 sudo init 0 
+    4  03/04/26 06:04:16 pwd
+    5  03/04/26 06:04:25 clear
+    6  03/04/26 06:04:27 pwd
+    7  03/04/26 06:04:41 id
+    8  03/04/26 06:04:48 id -u
+    9  03/04/26 06:05:11 echo "$(id -u)"
+   10  03/04/26 06:07:11 git clone https://github.com/thrivikramDevops/devops.git
+   11  03/04/26 06:07:14 pwd
+   12  03/04/26 06:07:17 ls-lrt
+   13  03/04/26 06:07:18 ls -lrt
+   14  03/04/26 06:07:23 cd devops/
+   15  03/04/26 06:07:24 ls -lrt
+   16  03/04/26 06:07:35 sh practice.sh 
+   17  03/04/26 06:07:41 vi practice.sh 
+   18  03/04/26 06:08:07 sh practice.sh 
+   19  03/04/26 06:08:20 vi practice.sh 
+   20  03/04/26 06:09:19 sh practice.sh 
+   21  03/04/26 06:09:31 sh conditions_prac.sh 
+   22  03/04/26 06:10:01 pwd
+   23  03/04/26 06:10:06 git status
+   24  03/04/26 06:11:05 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   25  03/04/26 06:23:58 pwd
+   26  03/04/26 06:24:05 awsconfigure
+   27  03/04/26 06:24:10 aws configure
+   28  03/04/26 06:25:28 aws s3 -l
+   29  03/04/26 06:25:39 aws s3 ls
+   30  03/04/26 06:43:35 aws ec2 run-instances    --image-id ami-0220d79f3f480ecf5    --instance-type t2.micro    --key-name devsecopswin    --security-group-ids sg-08b4f075ffdaf44ed    --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=Test1}]'
+   31  03/04/26 07:01:33 pwd
+   32  03/04/26 07:02:05 git config --global user.name="Thrivikram Reddy"
+   33  03/04/26 07:02:33 git config --global user.name "Thrivikram Reddy"
+   34  03/04/26 07:02:55 git config --global user.email "thrivikramreddy.pamala@gmail.com"
+   35  03/04/26 07:03:07 git init
+   36  03/04/26 07:03:27 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   37  03/04/26 07:20:00 pwd
+   38  03/04/26 07:20:07 ls -lrt
+   39  03/04/26 07:20:10 pwd
+   40  03/04/26 07:20:15 cd ..
+   41  03/04/26 07:20:30 ssh-keygen -f git
+   42  03/04/26 07:20:37 ls -lrt
+   43  03/04/26 07:20:41 cat git.pub 
+   44  03/04/26 07:22:10 pwd
+   45  03/04/26 07:22:15 git -version
+   46  03/04/26 07:22:21 git --version
+   47  03/04/26 07:22:28 cd devops/
+   48  03/04/26 07:22:38 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   49  03/04/26 07:22:57 ssh-keygen -f 
+   50  03/04/26 07:23:01 ssh-keygen -f filename
+   51  03/04/26 07:23:06 ls -lt
+   52  03/04/26 07:23:18 cat filename
+   53  03/04/26 07:23:22 cat filename.pub 
+   54  03/04/26 07:23:51 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   55  03/04/26 07:24:28 rm -rf filename*
+   56  03/04/26 07:25:42 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   57  03/04/26 06:04:16 pwd
+   58  03/04/26 06:04:25 clear
+   59  03/04/26 06:04:27 pwd
+   60  03/04/26 06:04:41 id
+   61  03/04/26 06:04:48 id -u
+   62  03/04/26 06:05:11 echo "$(id -u)"
+   63  03/04/26 06:07:11 git clone https://github.com/thrivikramDevops/devops.git
+   64  03/04/26 06:07:14 pwd
+   65  03/04/26 06:07:17 ls-lrt
+   66  03/04/26 06:07:18 ls -lrt
+   67  03/04/26 06:07:23 cd devops/
+   68  03/04/26 06:07:24 ls -lrt
+   69  03/04/26 06:07:35 sh practice.sh 
+   70  03/04/26 06:07:41 vi practice.sh 
+   71  03/04/26 06:08:07 sh practice.sh 
+   72  03/04/26 06:08:20 vi practice.sh 
+   73  03/04/26 06:09:19 sh practice.sh 
+   74  03/04/26 06:09:31 sh conditions_prac.sh 
+   75  03/04/26 06:10:01 pwd
+   76  03/04/26 06:10:06 git status
+   77  03/04/26 06:11:05 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   78  03/04/26 06:23:58 pwd
+   79  03/04/26 06:24:05 awsconfigure
+   80  03/04/26 06:24:10 aws configure
+   81  03/04/26 06:25:28 aws s3 -l
+   82  03/04/26 06:25:39 aws s3 ls
+   83  03/04/26 06:43:35 aws ec2 run-instances    --image-id ami-0220d79f3f480ecf5    --instance-type t2.micro    --key-name devsecopswin    --security-group-ids sg-08b4f075ffdaf44ed    --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=Test1}]'
+   84  03/04/26 07:01:33 pwd
+   85  03/04/26 07:02:05 git config --global user.name="Thrivikram Reddy"
+   86  03/04/26 07:02:33 git config --global user.name "Thrivikram Reddy"
+   87  03/04/26 07:02:55 git config --global user.email "thrivikramreddy.pamala@gmail.com"
+   88  03/04/26 07:03:07 git init
+   89  03/04/26 07:03:27 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+   90  03/04/26 07:20:00 pwd
+   91  03/04/26 07:20:07 ls -lrt
+   92  03/04/26 07:20:10 pwd
+   93  03/04/26 07:20:15 cd ..
+   94  03/04/26 07:20:30 ssh-keygen -f git
+   95  03/04/26 07:20:37 ls -lrt
+   96  03/04/26 07:20:41 cat git.pub 
+   97  03/04/26 07:22:10 pwd
+   98  03/04/26 07:22:15 git -version
+   99  03/04/26 07:22:21 git --version
+  100  03/04/26 07:22:28 cd devops/
+  101  03/04/26 07:22:38 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+  102  03/04/26 07:22:57 ssh-keygen -f 
+  103  03/04/26 07:23:01 ssh-keygen -f filename
+  104  03/04/26 07:23:06 ls -lt
+  105  03/04/26 07:23:18 cat filename
+  106  03/04/26 07:23:22 cat filename.pub 
+  107  03/04/26 07:23:51 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+  108  03/04/26 07:24:28 rm -rf filename*
+  109  03/04/26 07:25:42 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+  110  03/04/26 08:28:30 pwd
+  111  03/04/26 08:28:42 aws configure
+  112  03/04/26 08:28:49 pwd
+  113  03/04/26 08:30:45 eval "$(ssh-agent -s)"
+  114  03/04/26 08:31:06 ls -al ~/.ssh
+  115  03/04/26 08:31:46 pwd
+  116  03/04/26 08:32:27 ssh-keygen -t ed25519 -C "thrivikramreddy.pamala@gmail.com"
+  117  03/04/26 08:32:53 ssh-keygen -t rsa -C "thrivikramreddy.pamala@gmail.com"
+  118  03/04/26 08:33:01 ls -al ~/.ssh
+  119  03/04/26 08:33:14 eval "$(ssh-agent -s)"
+  120  03/04/26 08:33:26 ssh-add ~/.ssh/id_rsa
+  121  03/04/26 08:34:03 cat ~/.ssh/id_rsa.pub
+  122  03/04/26 08:36:00 git remote set-url origin git@github.com:thrivikramdevops/thrivikramdevops.git
+  123  03/04/26 08:36:40 git remote set-url origin git@github.com:thrivikramdevops/devops.git
+  124  03/04/26 08:36:59 ssh -T git@github.com
+  125  03/04/26 08:37:25 pwd
+  126  03/04/26 08:37:28 cd devops/
+  127  03/04/26 08:37:31 ls -lrt
+  128  03/04/26 08:37:39 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+  129  03/04/26 08:28:30 pwd
+  130  03/04/26 08:28:42 aws configure
+  131  03/04/26 08:28:49 pwd
+  132  03/04/26 08:30:45 eval "$(ssh-agent -s)"
+  133  03/04/26 08:31:06 ls -al ~/.ssh
+  134  03/04/26 08:31:46 pwd
+  135  03/04/26 08:32:27 ssh-keygen -t ed25519 -C "thrivikramreddy.pamala@gmail.com"
+  136  03/04/26 08:32:53 ssh-keygen -t rsa -C "thrivikramreddy.pamala@gmail.com"
+  137  03/04/26 08:33:01 ls -al ~/.ssh
+  138  03/04/26 08:33:14 eval "$(ssh-agent -s)"
+  139  03/04/26 08:33:26 ssh-add ~/.ssh/id_rsa
+  140  03/04/26 08:34:03 cat ~/.ssh/id_rsa.pub
+  141  03/04/26 08:36:00 git remote set-url origin git@github.com:thrivikramdevops/thrivikramdevops.git
+  142  03/04/26 08:36:40 git remote set-url origin git@github.com:thrivikramdevops/devops.git
+  143  03/04/26 08:36:59 ssh -T git@github.com
+  144  03/04/26 08:37:25 pwd
+  145  03/04/26 08:37:28 cd devops/
+  146  03/04/26 08:37:31 ls -lrt
+  147  03/04/26 08:37:39 git add .; git commit -m "Updated code 03/04/2026"; git push origin main;
+  148  03/04/26 08:37:53 exit
+  149  03/04/26 08:38:27 pwd
+  150  03/04/26 08:38:30 git status
+  151  03/04/26 08:38:49 pwd
+  152  03/04/26 08:38:55 cd devops/
+  153  03/04/26 08:38:58 git status
+  154  03/04/26 08:39:04 git pull
+  155  03/04/26 08:39:13 git push origin main
+  156  03/04/26 08:40:51 git remote set-url origin git@github.com:thrivikramdevops/devops.git
+  157  03/04/26 08:41:02 ssh -T git@github.com
+  158  03/04/26 08:41:10 git push origin main
+  159  03/04/26 08:41:22 history 
+  160  03/04/26 08:49:42 ls -al ~/.ssh
+  161  03/04/26 08:49:59 eval "$(ssh-agent -s)"
+  162  03/04/26 08:50:06 ssh-add ~/.ssh/id_ed25519
+  163  03/04/26 09:04:47 git --version
+  164  03/04/26 09:04:51 git log
+  165  03/04/26 09:06:54 cd ..
+  166  03/04/26 09:16:24 pwd
+  167  03/04/26 09:16:31 cd devops/
+  168  03/04/26 09:16:33 ls -lrt
+  169  03/04/26 09:16:39 git pull
+  170  03/04/26 09:16:42 ls -lrt
+  171  03/04/26 09:16:46 pwd
+  172  03/04/26 09:39:06 aws configure
+  173  03/04/26 09:39:20 aws ec2 run-instances --image-id ami-0220d79f3f480ecf5 --instance-type t2.micro --security-group-ids sg-08b4f075ffdaf44ed --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=test2}]" --query 'Instances[0].InstanceId' --output text
+  174  03/04/26 09:40:46 aws ec2 describe-instances --instance-ids i-048bd4d7e05d96bf4 --query 'Reservations[0].Instances[0].PrivateIpAddress' --output text
+  175  03/04/26 09:41:07 aws ec2 describe-instances --instance-ids i-048bd4d7e05d96bf4 --query 'Reservations[0].Instances[0].PublicIpAddress' --output text
+  176  03/04/26 09:50:22 pwd
+  177  03/04/26 09:50:27 ls -lrt
+  178  03/04/26 10:27:44 pwd
+  179  03/04/26 10:27:47 cd  devops/
+  180  03/04/26 10:27:56 git pull
+  181  03/04/26 10:28:03 ls -lrt
+  182  03/04/26 10:28:26 cd ..
+  183  03/04/26 10:29:38 git clone https://github.com/thrivikramdevops/Robosop_shell.git
+  184  03/04/26 10:29:41 pwd
+  185  03/04/26 10:29:45 ls -lrt
+  186  03/04/26 10:29:48 cd Robosop_shell/
+  187  03/04/26 10:29:51 ls -lrt
+  188  03/04/26 10:30:24 git log
+  189  03/04/26 10:30:30 git status
+  190  03/04/26 10:30:59 git pull
+  191  03/04/26 10:31:13 sh roboshop.sh -t
+  192  03/04/26 10:31:27 sh roboshop.sh mysql
+  193  03/04/26 10:32:39 sh roboshop.sh frontend mongodb
+  194  03/04/26 10:38:14 git pull
+  195  03/04/26 10:39:41 ls -lrt
+  196  03/04/26 10:39:49 sudo sh mongodb.sh 
+  197  03/04/26 10:40:33 ps -ef |grep mongodb
+  198  03/04/26 10:40:47 netstat -anlp
+  199  03/04/26 10:40:58 netstat -anlp |grep mongodb
+  200  03/04/26 10:41:19 netstat -nltp |grep mongodb
+  201  03/04/26 10:44:38 netstat -lntp
+  202  03/04/26 11:06:47 ls -lrt
+  203  03/04/26 11:06:55 git pull
+  204  03/04/26 11:07:08 sh catalogue-set.sh 
+  205  03/04/26 11:07:16 sh catalogue.sh
+  206  03/04/26 11:07:30 sudo sh catalogue.sh
+  207  03/04/26 11:09:01 sudo sh catalogue-set.sh 
+  208  03/04/26 11:23:32 history >>3april2026.txt
